@@ -33,8 +33,12 @@ class Test3 {
     }
 }
 
+$obj1 = new Test1();
+echo $obj1->ftest_1().":r1<br>";
+
 $obj = new Test3();
 echo $obj->ftest_3(100)->ftest_2()->ftest_1().":r1<br>";
+
 
 ?>
 結論：<br>
